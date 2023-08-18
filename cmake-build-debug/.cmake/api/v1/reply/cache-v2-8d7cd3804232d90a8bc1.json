@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "UTN"
+			"value" : "first"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1031,6 +1031,42 @@
 		},
 		{
 			"name" : "UTN_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/leito/Desktop/projects/UTN"
+		},
+		{
+			"name" : "first_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/leito/Desktop/projects/UTN/cmake-build-debug"
+		},
+		{
+			"name" : "first_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "first_SOURCE_DIR",
 			"properties" : 
 			[
 				{

@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=UTN
+CMAKE_PROJECT_NAME:STATIC=first
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -200,6 +200,15 @@ UTN_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 UTN_SOURCE_DIR:STATIC=/Users/leito/Desktop/projects/UTN
+
+//Value Computed by CMake
+first_BINARY_DIR:STATIC=/Users/leito/Desktop/projects/UTN/cmake-build-debug
+
+//Value Computed by CMake
+first_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+first_SOURCE_DIR:STATIC=/Users/leito/Desktop/projects/UTN
 
 
 ########################

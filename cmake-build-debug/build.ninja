@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: UTN
+# Project: first
 # Configurations: Debug
 # =============================================================================
 
@@ -41,41 +41,41 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/leito/Desktop/projects/UTN/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target UTN
+# Object build statements for EXECUTABLE target first
 
 
 #############################################
-# Order-only phony target for UTN
+# Order-only phony target for first
 
-build cmake_object_order_depends_target_UTN: phony || CMakeFiles/UTN.dir
+build cmake_object_order_depends_target_first: phony || CMakeFiles/first.dir
 
-build CMakeFiles/UTN.dir/main.c.o: C_COMPILER__UTN_unscanned_Debug /Users/leito/Desktop/projects/UTN/main.c || cmake_object_order_depends_target_UTN
-  DEP_FILE = CMakeFiles/UTN.dir/main.c.o.d
+build CMakeFiles/first.dir/first/main.c.o: C_COMPILER__first_unscanned_Debug /Users/leito/Desktop/projects/UTN/first/main.c || cmake_object_order_depends_target_first
+  DEP_FILE = CMakeFiles/first.dir/first/main.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/UTN.dir
-  OBJECT_FILE_DIR = CMakeFiles/UTN.dir
+  OBJECT_DIR = CMakeFiles/first.dir
+  OBJECT_FILE_DIR = CMakeFiles/first.dir/first
 
-build CMakeFiles/UTN.dir/domicilio.c.o: C_COMPILER__UTN_unscanned_Debug /Users/leito/Desktop/projects/UTN/domicilio.c || cmake_object_order_depends_target_UTN
-  DEP_FILE = CMakeFiles/UTN.dir/domicilio.c.o.d
+build CMakeFiles/first.dir/first/domicilio.c.o: C_COMPILER__first_unscanned_Debug /Users/leito/Desktop/projects/UTN/first/domicilio.c || cmake_object_order_depends_target_first
+  DEP_FILE = CMakeFiles/first.dir/first/domicilio.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/UTN.dir
-  OBJECT_FILE_DIR = CMakeFiles/UTN.dir
+  OBJECT_DIR = CMakeFiles/first.dir
+  OBJECT_FILE_DIR = CMakeFiles/first.dir/first
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target UTN
+# Link build statements for EXECUTABLE target first
 
 
 #############################################
-# Link the executable UTN
+# Link the executable first
 
-build UTN: C_EXECUTABLE_LINKER__UTN_Debug CMakeFiles/UTN.dir/main.c.o CMakeFiles/UTN.dir/domicilio.c.o
+build first: C_EXECUTABLE_LINKER__first_Debug CMakeFiles/first.dir/first/main.c.o CMakeFiles/first.dir/first/domicilio.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/UTN.dir
+  OBJECT_DIR = CMakeFiles/first.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = UTN
-  TARGET_PDB = UTN.dbg
+  TARGET_FILE = first
+  TARGET_PDB = first.dbg
 
 
 #############################################
@@ -111,7 +111,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/leito/Desktop/projects/UTN/cmake-build-debug
 
-build all: phony UTN
+build all: phony first
 
 # =============================================================================
 # Built-in targets
