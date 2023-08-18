@@ -4,4 +4,6 @@ project(UTN C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UTN
-        main.c)
+        main.c
+        domicilio.h
+        domicilio.c)
