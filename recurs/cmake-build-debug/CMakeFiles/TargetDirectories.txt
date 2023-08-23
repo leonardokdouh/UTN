@@ -1,0 +1,3 @@
+/Users/leito/Desktop/projects/UTN/recurs/cmake-build-debug/CMakeFiles/recurs.dir
+/Users/leito/Desktop/projects/UTN/recurs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leito/Desktop/projects/UTN/recurs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
