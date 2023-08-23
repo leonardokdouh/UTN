@@ -4,4 +4,6 @@ project(Empleados C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Empleados main.c
-        empleado.c)
+        empleado.c
+        pilaEmpleado.h
+        pilaEmpleado.c)

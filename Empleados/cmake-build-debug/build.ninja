@@ -61,6 +61,12 @@ build CMakeFiles/Empleados.dir/empleado.c.o: C_COMPILER__Empleados_unscanned_Deb
   OBJECT_DIR = CMakeFiles/Empleados.dir
   OBJECT_FILE_DIR = CMakeFiles/Empleados.dir
 
+build CMakeFiles/Empleados.dir/pilaEmpleado.c.o: C_COMPILER__Empleados_unscanned_Debug /Users/leito/Desktop/projects/UTN/Empleados/pilaEmpleado.c || cmake_object_order_depends_target_Empleados
+  DEP_FILE = CMakeFiles/Empleados.dir/pilaEmpleado.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Empleados.dir
+  OBJECT_FILE_DIR = CMakeFiles/Empleados.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Empleados
@@ -69,7 +75,7 @@ build CMakeFiles/Empleados.dir/empleado.c.o: C_COMPILER__Empleados_unscanned_Deb
 #############################################
 # Link the executable Empleados
 
-build Empleados: C_EXECUTABLE_LINKER__Empleados_Debug CMakeFiles/Empleados.dir/main.c.o CMakeFiles/Empleados.dir/empleado.c.o
+build Empleados: C_EXECUTABLE_LINKER__Empleados_Debug CMakeFiles/Empleados.dir/main.c.o CMakeFiles/Empleados.dir/empleado.c.o CMakeFiles/Empleados.dir/pilaEmpleado.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/Empleados.dir
   POST_BUILD = :
