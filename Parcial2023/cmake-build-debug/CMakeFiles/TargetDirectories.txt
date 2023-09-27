@@ -1,0 +1,3 @@
+/Users/leito/Desktop/projects/UTN/Parcial2023/cmake-build-debug/CMakeFiles/Parcial2023.dir
+/Users/leito/Desktop/projects/UTN/Parcial2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leito/Desktop/projects/UTN/Parcial2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir
