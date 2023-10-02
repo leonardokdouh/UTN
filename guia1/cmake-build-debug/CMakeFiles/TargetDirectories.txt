@@ -1,0 +1,3 @@
+/Users/leito/Desktop/projects/UTN/guia1/cmake-build-debug/CMakeFiles/guia1.dir
+/Users/leito/Desktop/projects/UTN/guia1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leito/Desktop/projects/UTN/guia1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
