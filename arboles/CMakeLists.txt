@@ -3,4 +3,7 @@ project(arboles C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(arboles main.c)
+add_executable(arboles main.c
+        arbol.c
+        arbol.h
+)

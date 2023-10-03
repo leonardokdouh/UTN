@@ -1,0 +1,41 @@
+#include <stddef.h>
+#include <stdlib.h>
+#include <printf.h>
+#include "arbol.h"
+
+//
+// Created by Leonardo Kdouh on 02/10/2023.
+//
+arbol * inicArbol(int dato){
+    return NULL;
+}
+
+arbol* crearNodoArbol(int dato){
+
+    arbol* nodoArbol = malloc(sizeof (arbol));
+    nodoArbol->dato=dato;
+    nodoArbol->izq=NULL;
+    nodoArbol->der=NULL;
+}
+
+arbol* insertarArbol(arbol* arbol, int dato){
+    if(!arbol){
+        arbol = inicArbol(dato);
+    }else{
+       if(dato>arbol->dato){
+           arbol->der=insertarArbol(arbol, dato);
+       }else{
+           arbol->izq= insertarArbol(arbol, dato);
+       }
+    }
+    return arbol;
+}
+
+void preorder(arbol * arbol) {
+    if (arbol) {
+        printf("%d", arbol->dato);
+        preorder(arbol->der);
+        preorder(arbol->izq);
+
+    }
+}
