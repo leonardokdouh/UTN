@@ -36,6 +36,21 @@ void preorder(arbol * arbol) {
         printf("%d", arbol->dato);
         preorder(arbol->der);
         preorder(arbol->izq);
+    }
+}
 
+void inorder(arbol * arbol){
+    if (arbol) {
+        preorder(arbol->der);
+        printf("%d", arbol->dato);
+        preorder(arbol->izq);
+    }
+}
+
+void posorder(arbol * arbol){
+    if (arbol) {
+        preorder(arbol->der);
+        preorder(arbol->izq);
+        printf("%d", arbol->dato);
     }
 }

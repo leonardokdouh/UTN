@@ -15,5 +15,10 @@ arbol * inicArbol(int dato);
 arbol * crearNodoArbol(int dato);
 arbol* insertarArbol(arbol* arbol, int dato);
 void preorder(arbol * arbol);
+void inorder(arbol * arbol);
+void posorder(arbol * arbol);
+
+
+
 #endif //ARBOLES_ARBOL_H
 
