@@ -54,3 +54,21 @@ void posorder(arbol * arbol){
         printf("%d", arbol->dato);
     }
 }
+
+arbol * buscar(arbol * arbol, int dato){
+    struct _arbol *rta;
+
+     rta=NULL;
+
+    if(arbol!=NULL)
+    {
+        if(dato == arbol->dato)
+            rta = arbol;
+        else
+        if(dato>arbol->dato)
+            rta = buscar(arbol->der, dato);
+        else
+            rta = buscar(arbol->izq, dato);
+    }
+    return rta;
+}
