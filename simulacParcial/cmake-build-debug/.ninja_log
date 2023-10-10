@@ -1,3 +1,8 @@
 # ninja log v5
-0	34	1696972939471747844	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39
 35	71	1696972939509488295	simulacParcial	15dd50ca06a219c9
+0	34	1696972939471747844	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39
+0	45	1696974344323232935	build.ninja	836068d6bd4de9cc
+1	22	1696974344350764258	CMakeFiles/simulacParcial.dir/adl.c.o	c37f377829034b03
+1	24	1696974344353495498	CMakeFiles/simulacParcial.dir/materia.c.o	8343bbf74cb8d59e
+1	30	1696974344359196271	CMakeFiles/simulacParcial.dir/nodoAlumno.c.o	2abc4dd8f3af5a01
+30	65	1696974344394456233	simulacParcial	2226b8ecc88645fc
