@@ -2,8 +2,8 @@
 // Created by Leonardo Kdouh on 10/10/2023.
 //
 
-#ifndef SIMULACPARCIAL_MATERIA_H
-#define SIMULACPARCIAL_MATERIA_H
+#ifndef SIMULACPARCIAL_REGISTROMATERIA_H
+#define SIMULACPARCIAL_REGISTROMATERIA_H
 
 typedef struct {
     char materia[20];
@@ -16,4 +16,4 @@ typedef struct {
 void muestraUnaMateria(stMateria materia);
 
 
-#endif //SIMULACPARCIAL_MATERIA_H
+#endif //SIMULACPARCIAL_REGISTROMATERIA_H

@@ -55,8 +55,8 @@ build CMakeFiles/simulacParcial.dir/main.c.o: C_COMPILER__simulacParcial_unscann
   OBJECT_DIR = CMakeFiles/simulacParcial.dir
   OBJECT_FILE_DIR = CMakeFiles/simulacParcial.dir
 
-build CMakeFiles/simulacParcial.dir/materia.c.o: C_COMPILER__simulacParcial_unscanned_Debug /Users/leito/Desktop/projects/UTN/simulacParcial/materia.c || cmake_object_order_depends_target_simulacParcial
-  DEP_FILE = CMakeFiles/simulacParcial.dir/materia.c.o.d
+build CMakeFiles/simulacParcial.dir/registroMateria.c.o: C_COMPILER__simulacParcial_unscanned_Debug /Users/leito/Desktop/projects/UTN/simulacParcial/registroMateria.c || cmake_object_order_depends_target_simulacParcial
+  DEP_FILE = CMakeFiles/simulacParcial.dir/registroMateria.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/simulacParcial.dir
   OBJECT_FILE_DIR = CMakeFiles/simulacParcial.dir
@@ -81,7 +81,7 @@ build CMakeFiles/simulacParcial.dir/nodoAlumno.c.o: C_COMPILER__simulacParcial_u
 #############################################
 # Link the executable simulacParcial
 
-build simulacParcial: C_EXECUTABLE_LINKER__simulacParcial_Debug CMakeFiles/simulacParcial.dir/main.c.o CMakeFiles/simulacParcial.dir/materia.c.o CMakeFiles/simulacParcial.dir/adl.c.o CMakeFiles/simulacParcial.dir/nodoAlumno.c.o
+build simulacParcial: C_EXECUTABLE_LINKER__simulacParcial_Debug CMakeFiles/simulacParcial.dir/main.c.o CMakeFiles/simulacParcial.dir/registroMateria.c.o CMakeFiles/simulacParcial.dir/adl.c.o CMakeFiles/simulacParcial.dir/nodoAlumno.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/simulacParcial.dir
   POST_BUILD = :
