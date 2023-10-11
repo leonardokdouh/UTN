@@ -10,6 +10,49 @@ int cargaArreglo(char nombreArchivo[], celda adl[], int dimension);
 stAlumno getAlumno(stMateria materia);
 
 
+//El arbol va a ser de clientes, cuentas va a ser un arreglo(lista)
+//un arbol de arreglo de listas
+// LISTA
+/*
+ * typedef struc {
+ * stCliente dato;
+ * nodoArbol * arbolDeCuentas
+ * struct _nodo * sig;
+ * }nodo
+ *
+ *
+ * //ARBOL DE LISTAS
+ *  * typedef struc {
+ * stCliente dato;
+ * nodo* cuentas;
+ * struct _nodoA* izquierda;
+ * struct _nodoA* derecha;
+ * }nodoA
+ *
+ *nodoA* alta(nodoA * adl, stCliente cliente, stCuenta cuenta){
+ *
+ *  nodo* nuevo = crearNodo(cuenta);
+ *  nodoA* posicion = buscaNodoArbol(adl, cliente.apellido);
+ *
+ *  if(!posicion){
+ *
+ *  posicion->cuentas = agregarAlPpio(posicion->cuentsa, cuenta);
+ *  }else{
+ *  adl= agregarNuevo(adl, crearNodo(cuenta)
+ *  }
+ *
+ *  return adl,
+ * }
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
 int main() {
     printf("Hello, World!\n");
 
