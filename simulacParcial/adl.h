@@ -15,6 +15,9 @@ typedef struct {
 int altaMateria(celda adl[], int v, char materia[], stAlumno alumno);
 int buscaPosicionMateria(celda adl[], char materio[], int v);
 int agregarMateria(celda adl[], char materia[], int v);
+void muestraADL(celda adl[], int v);
+void muestraUnaCelda(celda c);
+
 
 
 #endif //SIMULACPARCIAL_ADL_H

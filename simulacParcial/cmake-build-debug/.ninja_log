@@ -1,15 +1,8 @@
 # ninja log v5
 1	30	1696974344359196271	CMakeFiles/simulacParcial.dir/nodoAlumno.c.o	2abc4dd8f3af5a01
-1	24	1696974344353495498	CMakeFiles/simulacParcial.dir/materia.c.o	8343bbf74cb8d59e
-1	22	1696974344350764258	CMakeFiles/simulacParcial.dir/adl.c.o	c37f377829034b03
-0	45	1696976818357166147	build.ninja	836068d6bd4de9cc
-0	34	1696972939471747844	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39
-30	65	1696974344394456233	simulacParcial	2226b8ecc88645fc
-1	49	1696976818357166147	build.ninja	836068d6bd4de9cc
-0	22	1696976818384879375	CMakeFiles/simulacParcial.dir/registroMateria.c.o	87479b16fb93354c
 1	38	1696976818401080328	CMakeFiles/simulacParcial.dir/adl.c.o	c37f377829034b03
-39	75	1696976818437872744	simulacParcial	8ce583aa72ecd060
-1	135	1696980050479517163	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39
-135	179	1696980050524869603	simulacParcial	8ce583aa72ecd060
-1	32	1696980089215555955	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39
+1	24	1696974344353495498	CMakeFiles/simulacParcial.dir/materia.c.o	8343bbf74cb8d59e
+0	22	1696976818384879375	CMakeFiles/simulacParcial.dir/registroMateria.c.o	87479b16fb93354c
 32	65	1696980089249276802	simulacParcial	8ce583aa72ecd060
+1	49	1696983888247588989	build.ninja	836068d6bd4de9cc
+1	32	1696980089215555955	CMakeFiles/simulacParcial.dir/main.c.o	81140eb318943b39

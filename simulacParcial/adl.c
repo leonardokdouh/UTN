@@ -1,4 +1,5 @@
 #include <string.h>
+#include <printf.h>
 #include "adl.h"
 
 //
@@ -33,8 +34,17 @@ int buscaPosicionMateria(celda adl[], char materia[], int v) {
 int agregarMateria(celda adl[], char materia[], int v) {
 
     strcpy(adl[v].materia, materia);
-    adl[v].listaAlumnos=inicListaAlumno();
-    return v+1;
+    adl[v].listaAlumnos = inicListaAlumno();
+    return v + 1;
+}
 
+void muestraADL(celda adl[], int v) {
+    for (int i = 0; i < v; i++) {
+        muestraUnaCelda(adl[i]);
+    }
+}
 
+void muestraUnaCelda(celda c){
+    printf(".........");
+    muestraListaAlumno(c.listaAlumnos);
 }
